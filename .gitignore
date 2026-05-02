@@ -1,0 +1,16 @@
+bin/
+obj/
+
+.DS_Store
+
+*.db
+*.db-shm
+*.db-wal
+
+*.user
+*.suo
+.vs/
+
+frontend/node_modules/
+frontend/dist/
+frontend/.npm-cache/

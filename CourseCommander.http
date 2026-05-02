@@ -1,0 +1,6 @@
+@CourseCommander_HostAddress = http://localhost:5075
+
+GET {{CourseCommander_HostAddress}}/api/daily-operation-metrics
+Accept: application/json
+
+###
