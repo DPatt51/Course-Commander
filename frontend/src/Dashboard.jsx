@@ -10,8 +10,7 @@ import {
   Tooltip,
 } from 'chart.js'
 import { Line } from 'react-chartjs-2'
-
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5075'
+import { API_BASE_URL } from './api'
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend)
 
